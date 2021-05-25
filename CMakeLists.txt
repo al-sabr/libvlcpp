@@ -11,8 +11,8 @@ find_package(LIBVLC REQUIRED)
 
 include_directories("${LIBVLC_INCLUDE_DIR}")
 
-subdirs(examples)
-subdirs(test)
+#subdirs(examples)
+#subdirs(test)
 
 include(cpp11)
 add_definitions("-Wall -Wextra -pedantic")
